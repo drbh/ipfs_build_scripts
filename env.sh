@@ -1,0 +1,22 @@
+#!/bin/sh
+
+export BRAVE_IPFS_VERSION="5"
+export IPFS_VERSION=""
+
+# Tor has not released the win32 expert bundle for 0.3.3.6.
+# export IPFS_WIN32_VERSION="0.3.2.10"
+export ZLIB_VERSION=1.2.11
+export LIBEVENT_VERSION=2.1.8-stable
+export OPENSSL_VERSION=1.0.2o
+
+export ZLIB_HASH=c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1
+export LIBEVENT_HASH=965cc5a8bb46ce4199a47e9b2c9e1cae3b137e8356ffdad6d94d3b9069b71dc2
+export OPENSSL_HASH=ec3f5c9714ba0fd45cb4e087301eb1336c317e0d20b575a125050470e8089e4d
+
+
+# export IPFS_HASH=3cf5b4fea2491cbfefa1077bf1b2855e169052d381bd920cd57aa9bfaff6b3a5
+export LIBEVENT_KEY=9E3AC83A27974B84D1B3401DB86086848EF8686D
+# export IPFS_KEY=2133BC600AB133E1D826D173FE43009C4607B1FB
+
+export KEYSERVER=hkp://ipv4.pool.sks-keyservers.net:80
+ 
